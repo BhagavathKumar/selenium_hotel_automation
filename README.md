@@ -64,11 +64,18 @@ Enter Maximum Budget Value:
 4. View the filtered and sorted hotel list in the console.
 Example output:
 
-| Hotel Name                                 | Hotel Location      | Hotel Rating | Hotel Prices  |
-|-------------------------------- -----------|---------------------|--------------|---------------|
-| St Christopher's Inn, Hammersmith - Hostel | Hammersmith         | 3.5          | €27           |
-| Phoenix Hostel                             | Central London      | 3.5          | €27           |
-| St Christopher's Inn, Greenwich - Hostel   | Greenwich           | 3.5          | €28           |
++---------------------------------------------------------+---------------------------+----------------+----------------+
+| Hotel Name                                              | Hotel Location            |   Hotel Rating | Hotel Prices   |
++=========================================================+===========================+================+================+
+| St Christopher's Inn, Hammersmith - Hostel              | Hammersmith               |            3.5 | € 27
+|
++---------------------------------------------------------+---------------------------+----------------+----------------+
+| Kensal Green Backpackers 1                              | White City                |            3.5 | € 29
+|
++---------------------------------------------------------+---------------------------+----------------+----------------+
+| Safestay London Kensington Holland Park                 | Central London            |            3.5 | € 29
+|
++---------------------------------------------------------+---------------------------+----------------+----------------+
 
 ## Customization
 - Modify filters in `booking.py` to add or change criteria.
