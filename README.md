@@ -63,7 +63,7 @@ Enter Maximum Budget Value:
 ```
 4. View the filtered and sorted hotel list in the console.
 Example output:
-
+```
 +---------------------------------------------------------+---------------------------+----------------+----------------+
 | Hotel Name                                              | Hotel Location            |   Hotel Rating | Hotel Prices   |
 +=========================================================+===========================+================+================+
@@ -76,7 +76,7 @@ Example output:
 | Safestay London Kensington Holland Park                 | Central London            |            3.5 | € 29
 |
 +---------------------------------------------------------+---------------------------+----------------+----------------+
-
+```
 ## Customization
 - Modify filters in `booking.py` to add or change criteria.
 Adjust reporting details in `booking_report.py`.
