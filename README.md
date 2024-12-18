@@ -35,8 +35,8 @@ bot/
 ### Installation
 1. Clone the repository:
 ```
-git clone https://github.com/your-repo/selenium-hotel-automation.git
-cd selenium-hotel-automation
+git clone https://github.com/your-repo/selenium_hotel_automation.git
+cd selenium_hotel_automation
 ```
 2. Install required Python packages:
 ```
@@ -64,18 +64,18 @@ Enter Maximum Budget Value:
 4. View the filtered and sorted hotel list in the console.
 Example output:
 ```
-+---------------------------------------------------------+---------------------------+----------------+----------------+
-| Hotel Name                                              | Hotel Location            |   Hotel Rating | Hotel Prices   |
-+=========================================================+===========================+================+================+
-| St Christopher's Inn, Hammersmith - Hostel              | Hammersmith               |            3.5 | € 27
++----------------------------------------------+--------------------+----------------+--------------+
+| Hotel Name                                   | Hotel Location     |   Hotel Rating | Hotel Prices |
++==============================================+====================+================+==============+
+| St Christopher's Inn, Hammersmith - Hostel   | Hammersmith        |            3.5 | € 27
 |
-+---------------------------------------------------------+---------------------------+----------------+----------------+
-| Kensal Green Backpackers 1                              | White City                |            3.5 | € 29
++----------------------------------------------+--------------------+----------------+--------------+
+| Kensal Green Backpackers 1                   | White City         |            3.5 | € 29
 |
-+---------------------------------------------------------+---------------------------+----------------+----------------+
-| Safestay London Kensington Holland Park                 | Central London            |            3.5 | € 29
++----------------------------------------------+--------------------+----------------+--------------+
+| Safestay London Kensington Holland Park      | Central London     |            3.5 | € 29
 |
-+---------------------------------------------------------+---------------------------+----------------+----------------+
++----------------------------------------------+--------------------+----------------+--------------+
 ```
 ## Customization
 - Modify filters in `booking.py` to add or change criteria.
